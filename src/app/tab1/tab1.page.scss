@@ -1,0 +1,37 @@
+.contenedor-imagen {
+    display: flex; /* Contenedor como flexbox */
+    align-items: center; /* Centra los elementos verticalmente */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    height: 100%; /* Ajusta la altura para centrar verticalmente */
+  }
+  
+  .centrar-texto {
+    text-align: center; /* Centra el texto horizontalmente */
+  }
+  
+  .imagen-perfil {
+    margin-top: 2em;
+    width: 18em; /* Ancho de la imagen */
+    height: 18em; /* Alto de la imagen */
+    border-radius: 50%; /* Bordado redondo, el valor 50% es para hacerlo circular */
+  }
+
+  .contenedor-centrado {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los chips se ajusten automáticamente */
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5em;
+  }
+  
+  ion-chip {
+    white-space: nowrap; /* Evita saltos de línea dentro de los chips */
+    flex-shrink: 0; /* Evita que los chips se achiquen */
+  }
+  .contenedor-contenido {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    margin-top: 2em; /* Espacio entre los chips y el contenido */
+  }
+  
+  

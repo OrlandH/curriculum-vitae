@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Información Personal
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,9 +9,138 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+      <ion-title size="large">Información Personal</ion-title>
     </ion-toolbar>
   </ion-header>
+  
+  <ion-toolbar>
+    <ion-buttons slot="secondary">
+      <ion-button fill="solid">
+        <ion-icon name="logo-whatsapp"></ion-icon>
+        Celular
+      </ion-button>
+      <ion-button fill="solid">
+        <ion-icon name="mail"></ion-icon>
+        Email
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Contacto</ion-title>
+  </ion-toolbar>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-card>
+    <div class="contenedor-imagen">
+      <img alt="FotoPerfil" class="imagen-perfil" src="../../assets/foto.JPG" />
+    </div>
+    <ion-card-header class="centrar-texto">
+      <ion-card-title>Heyer Orlando Tinoco</ion-card-title>
+      <ion-card-subtitle>Desarrollador Jr Software</ion-card-subtitle>
+    </ion-card-header>
+    
+    <div class="contenedor-centrado">
+      <ion-chip>
+        <ion-icon name="logo-github"></ion-icon>
+        <ion-label>GitHub Personal: OrlandH</ion-label>
+      </ion-chip>      
+    </div>
+    
+  
+    <ion-card-content class="centrar-texto">
+      Estudiante de Desarrollo de Software con sólidas habilidades en trabajo en equipo y comunicación
+      directa con clientes. Mi experiencia en diversos campos ha contribuido a mi crecimiento personal.
+      Motivado por mantenerme actualizado en las tecnologías emergentes, fomento el aprendizaje autónomo 
+      para fortalecer mis habilidades y debilidades.
+    </ion-card-content>
+
+    <ion-card-title class="centrar-texto">Habilidades</ion-card-title>
+
+    <div class="contenedor-centrado">
+
+      <ion-chip>
+        <ion-icon name="git-branch"></ion-icon>
+        <ion-label>Java</ion-label>
+      </ion-chip>
+
+      <ion-chip>
+        <ion-icon name="git-branch"></ion-icon>
+        <ion-label>C#</ion-label>
+      </ion-chip>
+
+      <ion-chip>
+        <ion-icon name="logo-python"></ion-icon>
+        <ion-label>Python</ion-label>
+      </ion-chip>
+
+      <ion-chip>
+        <ion-icon name="logo-html5"></ion-icon>
+        <ion-label>HTML/CSS</ion-label>
+      </ion-chip>
+
+      <ion-chip>
+        <ion-icon name="logo-javascript"></ion-icon>
+        <ion-label>JavaScript</ion-label>
+      </ion-chip>
+
+      <ion-chip>
+        <ion-icon name="layers"></ion-icon>
+        <ion-label>MySQL</ion-label>
+      </ion-chip>
+
+      <ion-chip>
+        <ion-icon name="git-merge"></ion-icon>
+        <ion-label>MySQL</ion-label>
+      </ion-chip>
+
+      <ion-chip>
+        <ion-icon name="hardware-chip"></ion-icon>
+        <ion-label>Automation Anywhere RPA</ion-label>
+      </ion-chip>
+
+      <ion-chip>
+        <ion-icon name="hardware-chip"></ion-icon>
+        <ion-label>RocketBot RPA</ion-label>
+      </ion-chip>
+
+      <ion-chip>
+        <ion-icon name="hardware-chip"></ion-icon>
+        <ion-label>UiPath RPA</ion-label>
+      </ion-chip>
+
+    </div>
+
+    <div class="contenedor-contenido">
+      <ion-list lines="inset">
+
+        <ion-item>
+          <ion-card-title>Competencias</ion-card-title>
+        </ion-item>
+
+        <ion-item>
+          <ion-card-subtitle>Puntualidad</ion-card-subtitle>
+        </ion-item>
+        <ion-item>
+          <ion-card-subtitle>Comunicación</ion-card-subtitle>
+        </ion-item>
+        <ion-item>
+          <ion-card-subtitle>Trabajo bajo presión</ion-card-subtitle>
+        </ion-item>
+        <ion-item>
+          <ion-card-subtitle>Adaptación</ion-card-subtitle>
+        </ion-item>
+        <ion-item>
+          <ion-card-subtitle>Creatividad e Innovación</ion-card-subtitle>
+        </ion-item>
+
+        <ion-item>
+          <ion-card-title>Idiomas</ion-card-title>
+        </ion-item>
+
+        <ion-item>
+          <ion-card-subtitle>Inglés</ion-card-subtitle>
+        </ion-item>
+
+      </ion-list>
+    </div>
+  </ion-card>
+  
+  
 </ion-content>
