@@ -9,6 +9,9 @@ Ya una vez instaladas las dependencias, ejecutamos el servidor que se alojara
 ```
 ionic serve
 ```
+
+## Apk:
+El Apk se encuentra subido en el directorio. 
 ## Funcionalidad
 
 ### Lo primero, es encontrarnos con el Login
