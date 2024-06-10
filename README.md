@@ -1,4 +1,14 @@
 # Heyer Tinoco
+## Instalacion 
+- Instalar dependencias
+
+```
+npm install
+```
+Ya una vez instaladas las dependencias, ejecutamos el servidor que se alojara
+```
+ionic serve
+```
 ## Funcionalidad
 
 ### Lo primero, es encontrarnos con el Login
